@@ -28,7 +28,7 @@ li:last-child {
 	border-right: none;
 }
 li a:hover {
-	background-color: #111;
+	background-color: #4caf50;
 }
 li a {
 	display: block;
@@ -39,12 +39,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-	background-color: #111;
-}
-
-.active {
 	background-color: #4caf50;
 }
+
+/* .active {
+	background-color: #4caf50;
+} */
 
 .footer {
 	width: 100%;
